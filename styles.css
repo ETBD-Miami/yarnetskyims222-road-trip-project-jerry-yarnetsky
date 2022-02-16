@@ -1,18 +1,55 @@
+/* This is a comment in CSS */
+
 h1 {
     background-color: darkred;
     color:white;
-    padding: 1em 3em 1em 3em;
-    border: 2px solid red;
-    margin: 1em 1em 1em 1em;
+    text-align: center;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+    padding: 0.5em 0;
+    margin: 0 0 1em 0;
 }
 
 h2 {
     background-color: brown;
     color: beige;
     padding: 1em;
+    margin: 0.25em 0 1em 0;
+    border-radius: 10px;
 }
 
+img {width: 100%;} 
+/* This allows image to be the width of the parent. If it's inside a width limited div it will be the width of that div, if not, it will be the width of the browser window */
+
 .container {
-    width: 800px;
-    margin: 2em auto 2em auto;
+    max-width: 800px;
+    margin: 1em auto 1em auto;
 }
+
+
+#wing-fest {
+    box-shadow: 5px 5px 10px red;
+}
+
+.season {
+    border: 1px solid blue;
+    padding: 1em 1em 1em 1em;
+    margin: 1.5em 0 1.5em 0;
+    border-radius: 10px;
+}
+
+.event {
+    border: 1px solid gray;
+    background-color: white;
+    padding: 1em 2em 1em 2em;
+    margin: 1.25em 0 1.25em 0;
+    border-radius: 10px;
+}
+
+
+
+.season-winter {background-color:aquamarine;}
+.season-spring {background-color: azure;}
+.season-summer {background-color: blanchedalmond;}
+.season-autumn {background-color: aqua;}
+
