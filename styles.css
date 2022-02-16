@@ -1,11 +1,9 @@
 h1 {
     background-color: darkred;
     color:white;
-    padding: 1em 3em 5em 7em;
-    border-color: magenta;
-    border-width: 10px;
-    border-style: dotted;
-    margin: 5em 1em 3em 13em;
+    padding: 1em 3em 1em 3em;
+    border: 2px solid red;
+    margin: 1em 1em 1em 1em;
 }
 
 h2 {
