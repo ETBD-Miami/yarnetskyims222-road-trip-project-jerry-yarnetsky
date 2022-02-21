@@ -1,4 +1,23 @@
-/* This is a comment in CSS */
+/* specificity in action */
+
+.red   { color: red;}
+/* h3.red { background-color: red; } */
+/* p.red  { color: red; } */
+
+
+img { width: 100%; } 
+
+img.thumbnail {
+    float: right; 
+    width: 50%;
+    height: auto;
+    margin: 0 0 1em 1em;
+}
+
+
+
+/* ----- You can use CSS comments to organize your stylesheet ---- */
+
 
 h1 {
     background-color: darkred;
@@ -18,8 +37,7 @@ h2 {
     border-radius: 10px;
 }
 
-img {width: 100%;} 
-/* This allows image to be the width of the parent. If it's inside a width limited div it will be the width of that div, if not, it will be the width of the browser window */
+
 
 .container {
     max-width: 800px;
