@@ -1,20 +1,37 @@
 /* specificity in action */
 
-.red   { color: red;}
-/* h3.red { background-color: red; } */
+.red   { color: red;}*/
+ p.red { background-color: red; } 
 /* p.red  { color: red; } */
 
 
+
+
+/* to make something unique on every page */
+h1 {}
+#event h1 {}
+#eats h1 {}
+#do h1 {}
+
+/* Any image */
+
 img { width: 100%; } 
 
-img.thumbnail {
-    float: right; 
+img.thumbnail { 
+    display: block;
     width: 50%;
     height: auto;
-    margin: 0 0 1em 1em;
+    margin: 1em auto 1em auto;
+} /* left-right margin auto center block level elements! */
+
+h1 {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 1.25em; 
+    font-style: italic; 
+    font-weight: 700; 
+    line-height: 14.3px;
+    text-align: center;
 }
-
-
 
 /* ----- You can use CSS comments to organize your stylesheet ---- */
 
