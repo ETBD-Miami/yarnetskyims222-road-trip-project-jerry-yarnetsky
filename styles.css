@@ -1,15 +1,32 @@
+body {
+    background-color: #008ae6;
+}
+
+main.container {
+    max-width: 800px;
+    padding: 1em 2em;
+    margin: 1em auto 1em auto;
+    background-color: white;
+    box-shadow: 3px 3px 15px #001f33;
+    border-radius: 10px;
+}
+
 /*-- NAVIGATION --*/
 
+nav {
+    padding:0;
+    margin:0.5em -0.25em 0.75em -0.25em;
+}
 nav ul {
     display: flex;
     flex-direction: row;
-    padding: 0px;
+    padding: 0;
+    margin:0;
   }
   
   nav ul li {
     flex:1;
     list-style-type: none;
-    
   }
   
   nav ul li a {
@@ -31,70 +48,65 @@ nav ul {
 
 nav ul li.brand {
     flex: 3;
-    border: none;
 }
 
-/* specificity in action */
+nav ul li a.brand-link {
+    background-color:navy;
+    font-weight: bold;
+}
 
-.red   { color: red;}*/
- p.red { background-color: red; } 
-/* p.red  { color: red; } */
+/* One class can be applied to any element */
 
-
-
-
-/* to make something unique on every page */
-h1 {}
-#event h1 {}
-#eats h1 {}
-#do h1 {}
+.red   { color: red;}
 
 /* Any image */
 
-img { width: 100%; } 
+img { 
+    width: 100%; 
+    border-radius: 10px;
+} 
+
+img.page-topper {
+    border-radius: 10px 10px 0 0;
+}
+
+/* images with specific class */
 
 img.thumbnail { 
     display: block;
     width: 50%;
     height: auto;
-    margin: 1em auto 1em auto;
-} /* left-right margin auto center block level elements! */
+    margin: 1em auto;
+} 
+
+/* left-right auto margin centers block-level elements! */
+/* text-align: center; centers text */
+
+
+/* ----- https://www.cssfontstack.com/ ---- */
 
 h1 {
-    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-    font-size: 1.25em; 
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    font-size: 2.25em; 
     font-style: italic; 
-    font-weight: 700; 
     line-height: 14.3px;
-    text-align: center;
-}
-
-/* ----- You can use CSS comments to organize your stylesheet ---- */
-
-
-h1 {
     background-color: darkred;
+    border-radius: 0 0 10px 10px;
     color:white;
     text-align: center;
-    font-weight: bold;
-    font-family: Helvetica, sans-serif;
-    padding: 0.5em 0;
-    margin: 0 0 1em 0;
+    font-weight: 900;
+    padding: 0.75em 0 0.65em 0;
+    margin: -0.15em 0 1em 0;
+    border-top: 3px solid #300;
 }
 
 h2 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
     background-color: brown;
     color: beige;
     padding: 1em;
     margin: 0.25em 0 1em 0;
     border-radius: 10px;
-}
-
-
-
-.container {
-    max-width: 800px;
-    margin: 1em auto 1em auto;
 }
 
 
@@ -117,12 +129,10 @@ h2 {
     border-radius: 10px;
 }
 
-
-
-.season-winter {background-color:aquamarine;}
-.season-spring {background-color: azure;}
-.season-summer {background-color: blanchedalmond;}
-.season-autumn {background-color: aqua;}
+.season-spring {background-color:#33adff;}
+.season-summer {background-color: #008ae6;}
+.season-autumn {background-color: #004d80;}
+.season-winter {background-color: #001f33;}
 
 
 @media screen and (max-width: 700px) {
