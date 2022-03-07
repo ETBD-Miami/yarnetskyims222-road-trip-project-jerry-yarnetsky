@@ -17,7 +17,8 @@
     <main class="container">
 
 <!-- example navigation for exercise one -->    
-<nav>
+<nav id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <ul>
         <li class="brand"><a class="brand-link" href="index.html">BuffaLove!</a></li>
         <li><a href="do.html">Attractions</a></li>
@@ -26,6 +27,7 @@
     </ul>
 </nav>
 
+<span class="open-button" onclick="openNav()"> &#9776; Inside Buffalo</span>
     <img src="images/buffalo.jpg" style="width:800px; height:auto;" alt="Buffalo skyline" class="page-topper" />
 
     <h1>Events and Festivals</h1>
@@ -101,6 +103,17 @@
         </ul>
 </footer>
     </main>    
+
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+    
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+
 
 </body>
 
