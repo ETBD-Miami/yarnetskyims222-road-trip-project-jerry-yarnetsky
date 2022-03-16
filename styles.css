@@ -11,6 +11,19 @@ body {
   background-size: cover;
 }
 
+#index .container {max-width: 700px;}
+
+#index h1 {
+  max-width: 3em auto;
+}
+
+#index p.intro {
+  background-color: #eeeeeec5;
+  padding: 1em 2em;
+  border-radius: 25px;
+  box-shadow: 10px 10px 10px #555;
+}
+
 main.container {
     max-width: 800px;
     padding: 1em 2em;
