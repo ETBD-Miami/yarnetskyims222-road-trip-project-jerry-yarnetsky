@@ -3,43 +3,70 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+main.container {
+  max-width: 800px;
+  padding: 1em 2em;
+  margin: 1em auto 1em auto;
+  background-color: white;
+  box-shadow: 3px 3px 15px #001f33;
+  border-radius: 10px;
+}
+
+
+/* -- homepage styles -- */
+
 #index {
-  background-image: url('images/buffalo-skyline.jpg');
+  background-image: url(images/buffalo-skyline.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
 }
 
-#index .container {max-width: 700px;}
+#index .home-container {
+  max-width: 900px;
+  height: 100%;
+  padding: 0;
+  margin: 0em auto;
+}
+
+.center-vertical {
+  background-color: #ffffffaa;
+  margin: 0;
+  padding: 1em 2em;
+  border-radius: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
 
 #index h1 {
-  max-width: 3em auto;
+  font-family: 'Caudex', cursive;  
+  font-weight: 900;
+  font-size: 4.25em; 
+  line-height: 14.3px;
+  background-color: none!important;
+  border-radius: 10px;
+    color:white;
+    text-align: center;
+    padding: 0.75em 0 0.65em 0;
+    margin: 0.25em 0 0.25em 0;
+}
+
+.open-button {
+  font-family: 'Caudex', cursive;  
+  
+
 }
 
 #index p.intro {
-  background-color: #eeeeeec5;
   padding: 1em 2em;
   border-radius: 25px;
   box-shadow: 10px 10px 10px #555;
 }
 
-main.container {
-    max-width: 800px;
-    padding: 1em 2em;
-    margin: 1em auto 1em auto;
-    background-color: white;
-    box-shadow: 3px 3px 15px #001f33;
-    border-radius: 10px;
-}
-
-
-header {
-
-  background-image: url("images/buffalo.jpg");
-  height:400px;
-
-}
 
 /*-- NAVIGATION --*/
 
@@ -117,7 +144,7 @@ img.thumbnail {
 
 
 h1 {
-  font-family: 'Averia Serif Libre', cursive;  
+  font-family: 'Caudex', cursive;  
   font-weight: 900;
     font-size: 2.25em; 
     font-style: italic; 
@@ -132,7 +159,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Averia Serif Libre', cursive;
+  font-family: 'Caudex', cursive;
       background-color: brown;
     color: beige;
     padding: 1em;
