@@ -61,7 +61,7 @@ main.container {
 /*-- Events --*/
 
 #events {
-  background-image: url(images/buffalo.jpg);
+  background-image: url(images/buffalo-skyline.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed ;
@@ -74,7 +74,7 @@ main.container {
   justify-content:flex-start;
   align-items: center;
     height: 500px;
-    background-image: url(images/buffalo-skyline.jpg);
+    background-image: url(images/dyngus-day-girls.jpg);
     background-size: cover;
     border-radius: 10px;
     margin: 1em 0 1.5em 0;
