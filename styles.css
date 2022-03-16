@@ -58,7 +58,15 @@ main.container {
 }
 
 
-/*-- Events header --*/
+/*-- Events --*/
+
+#events {
+  background-image: url(images/buffalo-skyline.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed ;
+  background-size: cover;
+}
 
 #events header {
   display: flex;
@@ -80,6 +88,8 @@ main.container {
   border:none;
   border-radius: 10px;
 }
+
+
 
 
 /*-- NAVIGATION --*/
