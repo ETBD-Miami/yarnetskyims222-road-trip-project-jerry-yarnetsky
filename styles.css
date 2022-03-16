@@ -12,6 +12,14 @@ main.container {
     border-radius: 10px;
 }
 
+
+header {
+
+  background-image: url("images/buffalo.jpg");
+  height:400px;
+
+}
+
 /*-- NAVIGATION --*/
 
 nav {
