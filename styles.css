@@ -1,0 +1,295 @@
+body {
+    background-color: #008ae6;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main.container {
+  max-width: 800px;
+  padding: 1em 2em;
+  margin: 1em auto 1em auto;
+  background-color: rgba(255, 255, 255, 0.787);
+  box-shadow: 3px 3px 15px #001f33;
+  border-radius: 10px;
+}
+
+
+/* -- homepage background images styles -- */
+
+#index {
+  background-image: url(images/buffalo-skyline.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#index .home-container {
+  max-width: 900px;
+  height: 100%;
+  padding: 0;
+  margin: 0em auto;
+}
+
+.center-vertical {
+  background-color: #ffffffcc;
+  margin: 0;
+  padding: 1em 2em;
+  border-radius: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+
+#index h1 {
+  background-color: #5000009a;
+  font-size: 2.75em; 
+  line-height: 14.3px;
+  border-radius: 10px;
+    padding: 0.75em 0 0.65em 0;
+    margin: 0.25em 0 0.25em 0;
+}
+
+#index p.intro {
+  font-size: 1.1em;
+  line-height: 1.25;
+  padding: 0.25em 0em 0.25 0em;
+}
+
+
+/*-- Events --*/
+
+#events {
+  background-image: url(images/buffalo-skyline.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size:cover;
+}
+
+#events header {
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items: center;
+    height: 800px;
+    background-image: url(images/dyngus-day-girls.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    margin: 1em 0 1.5em 0;
+    background-position: center center;
+}
+
+#events h1.events {
+  width: 70%;
+  font-size: 3em;
+  padding: 0.5em 2em;
+  background-color: #0blac000005b;
+  border:none;
+  border-radius: 10px;
+}
+
+
+
+
+/*-- NAVIGATION --*/
+
+
+nav {
+    padding:0;
+    margin:0.5em -0.25em 0.75em -0.25em;
+}
+nav ul {
+    padding: 0;
+    margin:0;
+  }
+
+  #index nav ul {
+    display: flex;
+    flex-direction: row;
+  }  
+
+  nav ul li {
+    flex:1;
+    list-style-type: none;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 0.75em;
+    margin: 0.25em;  
+    background-color: maroon;
+    color: white;  
+    text-align: center;
+    text-decoration: none;  
+    border-radius: 10px;
+    align-items: stretch;
+  }
+  
+  nav ul li a:hover {
+    background-color: #900;
+    box-shadow: inset 3px 3px 10px #300;  
+  }
+
+nav ul li.brand {
+    flex: 3;
+}
+
+nav ul li a.active {
+    background-color:navy;
+    font-weight: bold;
+}
+
+/* Any image */
+
+img { 
+    width: 88%; 
+    border-radius: 10px;
+    border: 1px solid blue;
+} 
+
+img.page-topper {
+    border-radius: 10px 10px 0 0;
+}
+
+/* images with specific class */
+
+img.thumbnail { 
+    display: block;
+    width: 50%;
+    height: auto;
+    margin: 1em auto;
+} 
+
+/* left-right auto margin centers block-level elements! */
+/* text-align: center; centers text */
+
+
+/* ----- https://www.cssfontstack.com/ ---- */
+
+
+h1 {
+  font-family: 'Caudex', cursive;  
+  font-weight: 900;
+    font-size: 2.25em; 
+    font-style: italic; 
+    line-height: 14.3px;
+    background-color: darkred;
+    border-radius: 0 0 10px 10px;
+    color:white;
+    text-align: center;
+    padding: 0.75em 0 0.65em 0;
+    margin: -0.15em 0 1em 0;
+    border-top: 3px solid #300;
+}
+
+h2 {
+  font-family: 'Caudex', cursive;
+      background-color: brown;
+    color: beige;
+    padding: 1em;
+    margin: 0.25em 0 1em 0;
+    border-radius: 10px;
+}
+
+
+#wing-fest {
+    box-shadow: 5px 5px 10px red;
+}
+
+.season, 
+.event {
+    padding: 1em 1em 1em 1em;
+    margin: 1.5em 0 1.5em 0;
+    border-radius: 10px;
+}
+
+.season {
+    border: 1px solid blue;
+    
+}
+
+.event {
+    border: 1px solid gray;
+    background-color: white;
+}
+
+.season-spring {background-color:#33adff;}
+.season-summer {background-color: #008ae6;}
+.season-autumn {background-color: #004d80;}
+.season-winter {background-color: #001f33;}
+
+
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 700px) {
+    
+    nav ul {
+        flex-direction: column;
+        padding: 0 20px;
+        }
+
+
+    nav ul li {
+      margin:10px 0;
+      }
+    }
+
+/* --------------*/    
+
+
+span.open-button {
+    padding:10px 20px;
+    font-size:24px;  /* This controls the size of the button text */
+    cursor: pointer; /* This provides feedback that an interaction can take place with this button */
+    }
+  
+  span.open-button:hover {  
+    color:gold;
+    }  /* :hover allows you to change the color of a link when you hover over it */
+  
+  .sidenav {
+    position: absolute; /* this fixes your nav's position- see top and left */ 
+    z-index: 1;
+    top: 0; /* It starts height/width from the top left corner of the screen */ 
+    left: 0;
+    height: 100%; /* forces the nav to go the full height of your screen */ 
+    width: 0; /* the default width is 0 -- hidden, the JS changes it to 250px */
+    background-color: rgb(17, 17, 17); /* feel free to use any color for your nav, just make sure the your links are readable on this background (high contrast) */ 
+    overflow-x: hidden;
+    transition: 0.5s; /* speed in seconds for the opening animation */
+    padding-top: 50px; 
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 0px;
+    text-decoration: none;
+    font-size: 24px;  /* size of your navigation links */
+    color: #eee;
+    display: block;
+    transition: 0.3s; /* you'll see the links slide in and out as well */
+  }
+  
+  .sidenav a:hover {
+    text-decoration: underline;  /* adds link underlines on cursor hover */
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;  /* this positions the closing X button */
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {  /* mobile screen adjustments */   
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
